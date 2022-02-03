@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/font-awesome-4.0.3/fonts/fontawesome-webfont.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Medium.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
+
+.sup {
+  display: inline-block;
+  padding: 1% 2%;
+  background-color: rgba(193, 193, 193, 0.377);
+}
+.popka {
+  background-color: #949494;
+  height: 350px;
+  padding: 0px;
+  overflow: hidden;
+}
+.piki {
+  position: relative;
+
+  top: -300px;
+}
+.geystco {
+  position: relative;
+
+  padding: 0px;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+}
+
+aside li a {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000000;
+  width: 100%;
+  padding-left: 5%;
+}
+
+aside li a:visited {
+  color: #000000;
+}
+aside li a:hover {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+aside li:hover {
+  background-color: #333333;
+}
+aside li:hover > a {
+  color: #f8f8f8;
+}
+
+.options {
+  background-color: #26d2fc;
+
+  width: 100%;
+  margin-top: -80%;
+}
+
+.options h1 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.options li {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000000;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.options li:hover {
+  background-color: #333333;
+  color: #f8f8f8;
+}
+
+.winston p {
+  font-family: "Raleway";
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.winston {
+  background-color: #e0e0e0;
+  text-align: right;
+
+  padding-left: 50%;
+  padding-top: 50%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  margin-top: 10%;
+}
+
+.naviga a {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #999999;
+}
+.zero {
+  color: red;
+}
+
+.bruh {
+  margin-top: 5%;
+  height: 250px;
+  width: 100%;
+  background-image: url("../img/biba.jpg");
+  background-attachment: fixed;
+}
+
+.brands {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.shpakl {
+  height: 151px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook {
+  background-color: #3b5997;
+}
+.twitter {
+  background-color: #3fccfd;
+}
+
+.pindos {
+  background-color: #cb2027;
+}
+
+footer {
+  background-color: #373737;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+footer h1 {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #ffffff;
+}
+footer p {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.under {
+  background-color: #333333;
+}
+.under img {
+  height: 15px;
+}
+.under h4 {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #dad9d9;
+  padding: 1%;
+}
+.kaka {
+  padding: 2%;
+}
+.kaka > a {
+  margin: 1%;
+}
+footer a {
+  text-decoration: none !important;
+}
+
+.yellowass {
+  margin-left: 4%;
+  width: 60%;
+  background-color: #fff51f;
+
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  border: none;
+  outline: none;
+  padding: 2%;
+}
+
+.yellowass ~ button {
+  width: 25%;
+  font-family: "Roboto";
+  font-size: 60%;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  outline: none;
+}
+label {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 5%;
+}
+
+h1 {
+  margin: 5%;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: 900;
+  color: #353535;
+}
+p {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #777777;
+  margin-left: 5%;
+}
+a {
+  margin-top: 5%;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin: 10%;
+}

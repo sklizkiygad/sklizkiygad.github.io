@@ -1,0 +1,805 @@
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/font-awesome-4.0.3/fonts/fontawesome-webfont.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Medium.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.popka {
+  background-color: #abeafa;
+  height: 350px;
+  padding-top: 2%;
+}
+
+aside {
+  position: relative;
+  top: -8%;
+}
+.options {
+  margin-top: 5%;
+
+  background-color: #26d2fc;
+
+  width: 100%;
+}
+
+.options h1 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.options li {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000000;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.options li:hover {
+  background-color: #333333;
+  color: #f8f8f8;
+}
+aside li a{
+  font-family: Roboto;
+font-size: 14px;
+line-height: 36px;
+font-weight: 900;
+text-transform: uppercase;
+color: #000000;
+width: 100%;
+padding-left: 5%;
+
+}
+aside li a:visited {
+  color: #000000;
+ } 
+aside li a:hover {
+  color: #f8f8f8;
+  text-decoration: none; 
+ }
+aside li:hover {
+  background-color: #333333;
+  
+}
+aside li:hover > a{
+  color: #f8f8f8;
+}
+
+
+
+.winston p {
+  font-family: "Raleway";
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.winston {
+  background-color: #e0e0e0;
+  text-align: right;
+
+  padding-left: 50%;
+  padding-top: 50%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  margin-top: 10%;
+}
+
+.ali h1 {
+  font-family: "Raleway";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #fb4d01;
+  margin: 5%;
+}
+.ali {
+  background-color: #f8f8f8;
+  text-align: center;
+  margin-top: 15%;
+  padding: 0;
+}
+.alimain {
+  background-color: #fb4d01;
+  padding: 5% 5% 0 5%;
+  width: 100%;
+}
+#price {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+.alimain span > p {
+  font-family: "Raleway";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #faef03;
+}
+.bibok {
+  width: 100%;
+}
+
+.bibok h1 {
+  font-family: "Raleway";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.bitch {
+  margin-top: 3%;
+}
+.bitch a {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #989898;
+  text-decoration: none;
+}
+
+.hui h1 {
+  font-family: "Roboto";
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.hui button {
+  border: none;
+  outline: none;
+  background-color: Transparent;
+}
+
+.dorastupid {
+  padding-top: 5%;
+  width: 100%;
+}
+.dorastupid h1 {
+  font-family: "Raleway";
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 2%;
+}
+.card {
+  width: 390px;
+  border: 8px solid white;
+}
+.card img {
+  width: 100%;
+  height: 235px;
+
+  object-fit: cover;
+  object-position: top;
+}
+
+    
+.card-title{
+  font-family: 'Roboto';
+  font-size: 100%;
+  line-height: 18px;
+  font-weight: 900;
+  font-style: italic;
+  color: #333333;
+}
+.currency{
+  font-family: 'Roboto';
+  font-size: 100%;
+  line-height: 1.2;
+  font-weight: 900;
+  font-style: italic;
+  color: #333333;
+  text-align: right;
+  margin-bottom: 0;
+}
+.peredel{
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 900;
+  font-style: italic;
+  color: #333333;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.hui h1 {
+  font-family: "Roboto";
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.hui button {
+  border: none;
+  outline: none;
+  background-color: Transparent;
+}
+
+.dorastupid {
+  padding-top: 5%;
+  width: 100%;
+}
+.dorastupid h1 {
+  font-family: "Raleway";
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 2%;
+}
+.buttini {
+  height: 100%;
+  display: flex;
+}
+
+.suvk {
+  height: 40px;
+  width: 40px;
+  background-color: #26d2fc;
+  opacity: 1;
+  top: 40%;
+}
+
+.beer {
+  height: 40px;
+  width: 40px;
+  background-color: #faef03;
+  opacity: 1;
+  top: 40%;
+}
+
+.brands {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.shpakl {
+  height: 151px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook {
+  background-color: #3b5997;
+}
+.twitter {
+  background-color: #3fccfd;
+}
+
+.pindos {
+  background-color: #cb2027;
+}
+
+footer {
+  background-color: #373737;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+footer h1 {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #ffffff;
+}
+footer p {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.under {
+  background-color: #333333;
+}
+.under img {
+  height: 15px;
+}
+.under h4 {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #dad9d9;
+  padding: 1%;
+}
+.kaka {
+  padding: 2%;
+}
+.kaka > a {
+  margin: 1%;
+}
+.yellowass {
+  margin-left: 4%;
+  width: 60%;
+  background-color: #fff51f;
+
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  border: none;
+  outline: none;
+  padding: 2%;
+}
+
+.yellowass ~ button {
+  width: 25%;
+  font-family: "Roboto";
+  font-size: 60%;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  outline: none;
+}
+.tagsbiba h1 {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 900;
+  font-style: italic;
+  color: #000000;
+  margin: 3%;
+}
+.tagsbiba {
+  margin-top: 10%;
+  background-color: #ffffff;
+  padding: 5%;
+  max-width: 100%;
+}
+.tagsbiba a {
+  color: #000000;
+}
+.tagsbiba p {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #555555;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+button {
+  cursor: pointer;
+}
+.tagsikeksi ul {
+  display: flex;
+  margin: 0;
+  max-width: 100%;
+}
+
+.tagsikeksi li {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #333333;
+  background-color: #e9e9e9;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: 3%;
+}
+
+.tagsikeksi li:hover {
+  background-color: #faef03;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: #000000;
+}
+.visit img{
+    width: 100%;
+max-width: 374px;
+  height: 374px;
+  object-fit: cover;
+}
+
+
+
+
+.cara{
+    width: 100%;
+    max-width: 374px;
+    display: flex;
+    justify-content: space-between;
+   
+  
+ 
+    margin-top: 5%;
+}
+
+.cara a{
+    display: flex;
+align-items: center;
+}
+
+.cara>a>img{
+width: 12px;
+height: 40px;
+
+}
+
+.cara-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.cara-inner img{
+    width: 70px;
+height: 110px;
+}
+
+/* fdhdfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+
+.stars {
+    
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+}
+
+
+
+input.star {
+    display: none
+}
+
+label.star {
+    float: right;
+
+    font-size: 20px;
+    color: #4A148C;
+    transition: all .2s
+}
+
+input.star:checked~label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s
+}
+
+input.star-5:checked~label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952
+}
+
+input.star-1:checked~label.star:before {
+    color: #F62
+}
+
+label.star:hover {
+    transform: rotate(-15deg) scale(1.3)
+}
+
+label.star:before {
+    content: '\f006';
+    font-family: 'FontAwesome';
+}
+
+/*dfhhhhhhhhhhhhhhhhhhhhh*/
+
+
+.casize{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.casizeinner{
+    background-color: white;
+    width: 25px;
+height: 30px;
+}
+.casizeinner>label{
+    font-family: 'Roboto';
+font-size: 90%;
+line-height: 17px;
+font-weight: 400;
+color: #333333;
+margin: 3px;
+}
+.casizeinner input{
+  display: none;
+}
+
+.casizeinner input:checked + label{
+    color: #ff0000;
+}
+
+.zigzag>h1{
+  font-family: 'Roboto';
+font-size: 24px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #353535;
+
+}
+.stars + p{
+
+  font-family: 'Roboto';
+font-size: 12px;
+line-height: 20px;
+font-weight: 400;
+color: #353535;
+margin-top: 1%;
+margin-left: 1%;
+}
+
+#priceofproduct{
+  font-family: 'Roboto';
+font-size: 22px;
+line-height: 1.2;
+font-weight: 500;
+font-style: italic;
+color: #111111;
+margin-left: 3%;
+}
+
+#currency{
+  font-family: 'Roboto';
+font-size: 22px;
+line-height: 1.2;
+font-weight: 500;
+font-style: italic;
+color: #111111;
+}
+.text-right p{
+  font-family: 'Roboto';
+font-size: 12px;
+line-height: 24px;
+font-weight: 400;
+color: #666669;
+
+}
+.opiska{
+  border-top: 1px solid  #3333334f;
+  border-bottom: 1px solid #3333333f;
+}
+.opiska h1{
+  font-family: 'Roboto';
+font-size: 12px;
+line-height: 20px;
+font-weight: 400;
+text-transform: uppercase;
+color: #353535;
+}
+
+.opiska p{
+  font-family: 'Roboto';
+font-size: 12px;
+line-height: 16px;
+font-weight: 400;
+color: #707070;
+}
+.size{
+  margin-top: 5%;
+}
+.length{
+  margin-top: 5%;
+}
+.size h1{
+  font-family: 'Roboto';
+font-size: 12px;
+line-height: 17px;
+font-weight: 400;
+text-transform: uppercase;
+color: #333333;
+}
+
+.qatya{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  border-top: 1px solid #3333333f;
+}
+
+.qatya h1{
+  font-family: 'Roboto';
+font-size: 12px;
+line-height: 20px;
+font-weight: 400;
+color: #333333;
+
+}
+.qatya input{
+  width: 30px;
+height: 27px;
+background-color: #ffffff;
+border: 1px solid #efefef;
+text-align: center;
+margin-bottom: 20%;
+
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.qatya button{
+  
+border: none;
+outline: 0;
+
+}
+
+.qatya p{
+  font-family: 'Roboto';
+font-size: 11px;
+line-height: 20px;
+font-weight: 400;
+color: #353535;
+margin: 0;
+
+}
+
+#additor{
+  width: 130px;
+height: 48px;
+background-color: #fb4d01;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #ffffff;
+text-transform: uppercase;
+}
+#additor button:active, #additor button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+.suda{
+  padding: 1%;
+}
+.suda h1{
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+  text-transform: uppercase;
+margin: 0;
+}
+
+.activka{
+  background-color: #26d2fc;
+}
+
+
+.description{
+  display: flex;
+  justify-content: left;
+  margin-top: 4%;
+
+}
+.pila{
+  margin-top: 1%;
+  border: 1px solid #d6d4d4;
+  padding: 1%;
+  display: none;
+}
+.actava{
+  display: block;
+  position: absolute;
+  left: 0;
+
+}
+
+.actava p{
+  font-family: Verdana;
+font-size: 11px;
+line-height: 15px;
+font-weight: 400;
+color: #808080;
+}
+
+.dorastupid{
+  margin-top: 15%;
+  padding-top: 5%;
+  width:100%;
+}
+.dorastupid h1{
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 2%;
+}
+.buttini{
+  height:100%;
+  display: flex;
+}
+
+.item_box{
+  transition: 2s;
+}
+
+.item_box:hover{
+  transform: scale(1.1); 
+}

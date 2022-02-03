@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/productpage.css" />
+    <link rel="stylesheet" href="./css/metapeppa.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid popka">
+        <div class="row">
+          <div class="col-md-1"></div>
+
+          <div class="col-md-2 text-center">
+            <img src="./img/surfhouse_logo.png" alt="logo" />
+          </div>
+          <div class="col-md-8 text-right">
+            <img src="./img/facebook_icon.png" alt="face" />
+            <img src="./img/twitter_icon.png" alt="twi" />
+            <img src="./img/youtube_icon.png" alt="you" />
+            <img src="./img/pinterest_icon.png" alt="pika" />
+            <img src="./img/insta_icon.png" alt="inst" />
+            <img src="./img/EN.png" alt="en" />
+            <img src="./img/Arrow_Down.png" alt="ar" />
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </header>
+
+    <article>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+
+          <div class="col-md-2">
+            <aside>
+              <div class="container-fluid" style="padding: 0">
+                <div class="ali">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h1>LOG IN</h1>
+                    </div>
+                    <div class="col-md-6">
+                      <h1>WISH LIST</h1>
+                    </div>
+                  </div>
+
+                  <div class="alimain">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./img/icon_cart_11142.png" alt="cart" />
+                      </div>
+                      <div class="col-md-7">
+                        <div style="display: flex; justify-content: center">
+                          <a href="./cartipka.html"><p id="price">000</p></a>
+                          <p style="color: aliceblue">.€</p>
+                        </div>
+                        <p><span>items</span></p>
+                      </div>
+                      <div class="col-md-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="13"
+                          fill="#faef03"
+                          class="bi bi-x-lg"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                          />
+                        </svg>
+                        <p>EDIT</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="bibok"
+                    style="display: flex; justify-content: center"
+                  >
+                    <div style="background-color: #ee4a02; width: 50%">
+                      <h1>VIEW CART</h1>
+                    </div>
+                    <div style="background-color: #e24602; width: 50%">
+                      <h1>CHECKOUT</h1>
+                    </div>
+                  </div>
+
+                  <div style="display: flex; justify-content: center">
+                    <input
+                      type="text"
+                      name="search"
+                      placeholder="SEARCH"
+                      style="
+                        background-color: #e9e9e9;
+                        font-family: Raleway;
+                        font-size: 10px;
+                        padding: 4%;
+                        border: none;
+                        outline: none;
+                        line-height: 1.2;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                        color: #0c0c0c;
+                        width: 80%;
+                      "
+                    />
+                    <div style="background-color: #333333; width: 20%">
+                      <img
+                        src="./img/icons8-search.svg"
+                        style="height: 15px"
+                        alt="5"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="options">
+                <div style="background-color: #333333; padding: 5%">
+                  <h1>menu</h1>
+                </div>
+
+                <ul>
+                  <li>
+                    <a href="#"> about</a>
+                  </li>
+
+                  <li>
+                    <a href="#"> apparel</a>
+                  </li>
+
+                  <li>
+                    <a href="#">surf apparel</a>
+                  </li>
+
+                  <li>
+                    <a href="#">windsurf</a>
+                  </li>
+
+                  <li>
+                    <a href="#">kitesurf</a>
+                  </li>
+
+                  <li>
+                    <a href="#">accessories</a>
+                  </li>
+
+                  <li>
+                    <a href="./shotcart.html">sale</a>
+                  </li>
+
+                  <li>
+                    <a href="#"> brands</a>
+                  </li>
+
+                  <li>
+                    <a href="#">blog</a>
+                  </li>
+
+                  <li>
+                    <a href="#">gadgets</a>
+                  </li>
+
+                  <li>
+                    <a href="./contact.html">contact</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="options">
+                <div style="background-color: #333333; padding: 5%">
+                  <h1>Category options</h1>
+                </div>
+
+                <ul style="background-color: #81e6fe">
+                  <li>men</li>
+
+                  <li>women</li>
+
+                  <li>kids</li>
+
+                  <li>wetsuits</li>
+
+                  <li>outwear</li>
+                </ul>
+              </div>
+
+              <div class="options">
+                <div style="background-color: #333333; padding: 5%">
+                  <h1>brand options</h1>
+                </div>
+
+                <ul style="background-color: #81e6fe">
+                  <li>billabong</li>
+
+                  <li>element</li>
+
+                  <li>o`neill</li>
+
+                  <li>oakley</li>
+
+                  <li>reef</li>
+                  <li>quicksilver</li>
+                  <li>ripcurl</li>
+                  <li>jackss</li>
+                </ul>
+              </div>
+
+              <div class="tagsbiba">
+                <h1>Tags widget</h1>
+
+                <div class="tagsikeksi">
+                  <ul>
+                    <li>Kitesurf</li>
+                    <li>Super</li>
+                  </ul>
+
+                  <ul>
+                    <li>Duper</li>
+                    <li>Theme</li>
+                  </ul>
+
+                  <ul>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Equipment</li>
+                  </ul>
+
+                  <ul>
+                    <li>Best</li>
+                    <li>Accessories</li>
+                    <li>Men</li>
+                  </ul>
+
+                  <ul>
+                    <li>Apparel</li>
+                    <li>Super</li>
+                  </ul>
+
+                  <ul>
+                    <li>Duper</li>
+                    <li>Theme</li>
+                    <li>Responsiv</li>
+                  </ul>
+
+                  <ul>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Equipment</li>
+                  </ul>
+                  <a href="#"
+                    ><h1 style="font-size: 14px">view all tags -></h1></a
+                  >
+                </div>
+              </div>
+
+              <div class="winston">
+                <p>now is open!</p>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-8">
+            <div class="maincontent">
+              <div class="hat">
+                <div class="container-fluid">
+                  <div class="row bitch">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <a href="#">Home &#62;&#62; </a>
+
+                        <a href="#">Apparel &#62;&#62;</a>
+                        <a href="#">Women &#62;&#62;</a>
+                        <a href="#">Peeky Crooped </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                      <a href="#"> &#60;&#60; Back to previous page </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12" style="padding: 0">
+                    <div class="row">
+                      <div class="col-md-6 visit">
+                        <img src="./img/dora1.jpg" alt="main" id="mainphoto" />
+
+                        <div class="cara">
+                          <a
+                            ><img src="./img/arrow_sx_12362.png" alt="left"
+                          /></a>
+
+                          <div class="cara-inner">
+                            <div class="caroa-item active">
+                              <img src="./img/rus1.jpg" alt="First slide" />
+                            </div>
+                            <div class="cara-item">
+                              <img src="./img/rus2.jpg" alt="Second slide" />
+                            </div>
+                            <div class="cara-item">
+                              <img src="./img/rus3.jpg" alt="Third slide" />
+                            </div>
+                          </div>
+                          <a>
+                            <img src="./img/arrow_dx_12361.png" alt="right" />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 zigzag">
+                        <h1 style="margin-left: 2%" id="maintext">Dora Dura</h1>
+
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="stars">
+                              <form action="#">
+                                <input
+                                  class="star star-5"
+                                  id="star-5"
+                                  type="radio"
+                                  name="star"
+                                />
+                                <label class="star star-5" for="star-5"></label>
+                                <input
+                                  class="star star-4"
+                                  id="star-4"
+                                  type="radio"
+                                  name="star"
+                                />
+                                <label class="star star-4" for="star-4"></label>
+                                <input
+                                  class="star star-3"
+                                  id="star-3"
+                                  type="radio"
+                                  name="star"
+                                />
+                                <label class="star star-3" for="star-3"></label>
+                                <input
+                                  class="star star-2"
+                                  id="star-2"
+                                  type="radio"
+                                  name="star"
+                                />
+                                <label class="star star-2" for="star-2"></label>
+                                <input
+                                  class="star star-1"
+                                  id="star-1"
+                                  type="radio"
+                                  name="star"
+                                />
+                                <label class="star star-1" for="star-1"></label>
+                              </form>
+                            </div>
+                            <p>1 Review(s) | Add Your Review</p>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="row">
+                                <p id="priceofproduct">578.50</p>
+                                <p id="currency">.€</p>
+                              </div>
+                            </div>
+                            <div class="col-md-6 text-right">
+                              <p>Product code: 257</p>
+                              <p>Availability: In stock</p>
+                            </div>
+                          </div>
+
+                          <div class="opiska">
+                            <h1>Quick Overview:</h1>
+                            <p>
+                              Lorem Ipsum is simply dummy text of the printing
+                              and typesetting industry. Lorem Ipsum has been the
+                              industry's standard dummy text ever since the
+                              1500s, when an unknown printer took a galley of
+                              type and scrambled it to make a type specimen
+                              book. When an unknown printer took a galley of
+                              type.
+                            </p>
+                          </div>
+
+                          <div class="size">
+                            <h1>Size</h1>
+                            <div class="casize">
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="1" />
+                                <label for="1">25</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="2" />
+                                <label for="2">26</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="3" />
+                                <label for="3">27</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="4" />
+                                <label for="4">28</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="5" />
+                                <label for="5">29</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="6" />
+                                <label for="6">30</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="7" />
+                                <label for="7">31</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="8" />
+                                <label for="8">32</label>
+                              </div>
+                              <div class="casizeinner">
+                                <input type="radio" name="suk" id="9" />
+                                <label for="9">33</label>
+                              </div>
+                            </div>
+
+                            <div class="length">
+                              <h1>LENGTH</h1>
+                              <div
+                                style="
+                                  display: flex;
+                                  justify-content: space-between;
+                                  max-width: 90px;
+                                "
+                              >
+                                <div class="casizeinner">
+                                  <input type="radio" name="lena" id="10" />
+                                  <label for="10">32</label>
+                                </div>
+                                <div class="casizeinner">
+                                  <input type="radio" name="lena" id="11" />
+                                  <label for="11">34</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="qatya">
+                          <div>
+                            <h1>Quantity</h1>
+                            <button value="-" onclick="minusing()" id="bbyy">
+                              -
+                            </button>
+                            <input type="number" value="1" id="rusikpedik" />
+                            <button value="+" onclick="plusing()">+</button>
+                          </div>
+                          <button id="additor" onclick="addToCart()">
+                            add to cart
+                          </button>
+                          <p>
+                            + Add to Wishlist <br />
+                            + Add to Compare <br />
+                            + Email to a Friend
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      <div class="suda activka">
+                        <h1>Product description</h1>
+                        <div class="pila">
+                          <p>
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+                            - 6.1 oz. 100% preshrunk heavyweight cotton <br />
+                            - Shoulder-to-shoulder taping <br />
+                            - Double-needle sleeves and bottom hem <br />
+
+                            It uses a dictionary of over 200 Latin words,
+                            combined with a handful of model sentence
+                            structures, to generate Lorem Ipsum which looks
+                            reasonable.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="suda">
+                        <h1>Additional information</h1>
+                        <div class="pila actava">
+                          <p>
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+                            - 6.1 oz. 100% preshrunk heavyweight cotton <br />
+                            - Shoulder-to-shoulder taping <br />
+                            - Double-needle sleeves and bottom hem <br />
+
+                            It uses a dictionary of over 200 Latin words,
+                            combined with a handful of model sentence
+                            structures, to generate Lorem Ipsum which looks
+                            reasonable.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="suda">
+                        <h1>reviews</h1>
+                        <div class="pila">
+                          <p>
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+                            - 6.1 oz. 100% preshrunk heavyweight cotton <br />
+                            - Shoulder-to-shoulder taping <br />
+                            - Double-needle sleeves and bottom hem <br />
+
+                            It uses a dictionary of over 200 Latin words,
+                            combined with a handful of model sentence
+                            structures, to generate Lorem Ipsum which looks
+                            reasonable.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="suda">
+                        <h1>Product tags</h1>
+                        <div class="pila">
+                          <p>
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem Ipsum, you
+                            need to be sure there isn't anything embarrassing
+                            hidden in the middle of text. <br />
+                            - 6.1 oz. 100% preshrunk heavyweight cotton <br />
+                            - Shoulder-to-shoulder taping <br />
+                            - Double-needle sleeves and bottom hem <br />
+
+                            It uses a dictionary of over 200 Latin words,
+                            combined with a handful of model sentence
+                            structures, to generate Lorem Ipsum which looks
+                            reasonable.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="dorastupid">
+                      <h1>You might also like</h1>
+
+                      <div
+                        id="carouselExampleControls"
+                        class="carousel slide"
+                        data-ride="carousel"
+                      >
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="20">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora1.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Stupid</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">257</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="21">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora2.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">
+                                            Dora CuteRock
+                                          </p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">300</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="22">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora3.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Orig</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">249</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="23">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora4.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Black</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">10</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="24">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora5.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Young</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">150</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="25">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora6.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Smily</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">245</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="26">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora7.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Rock</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">333</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="27">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora8.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Cash</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">10</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="28">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora9.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Lera</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">138</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="buttini">
+                          <a
+                            class="carousel-control-prev suvk"
+                            href="#carouselExampleControls"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a
+                            class="carousel-control-next suvk"
+                            href="#carouselExampleControls"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="dorastupid" style="margin-top: 5%">
+                      <h1>RECENTLY VIEWED</h1>
+                      <div
+                        id="carouselExampleControls1"
+                        class="carousel slide"
+                        data-ride="carousel"
+                      >
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="10">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora1.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Stupid</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">257</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="11">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora2.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">
+                                            Dora CuteRock
+                                          </p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">300</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="12">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora3.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Orig</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">249</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="10">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora4.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Black</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">10</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="11">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora5.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Young</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">150</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="12">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora6.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Smily</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">245</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="10">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora7.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Rock</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">333</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="11">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora8.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Cash</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">10</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="item_box" data-id="12">
+                                  <div class="card" style="max-width: 30rem">
+                                    <img
+                                      class="card-img-top"
+                                      src="./img/dora9.jpg"
+                                      alt="Card image cap"
+                                    />
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <p class="card-title">Dora Lera</p>
+                                        </div>
+                                        <div class="col-md-6 peredel">
+                                          <p class="card-text">138</p>
+                                          <p class="currency">€</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="buttini">
+                          <a
+                            class="carousel-control-prev suvk"
+                            href="#carouselExampleControls1"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a
+                            class="carousel-control-next suvk"
+                            href="#carouselExampleControls1"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="brands">
+            <div class="facebook shpakl">
+              <img src="./img/f_icon_11736.png" alt="f" />
+            </div>
+            <div class="twitter shpakl">
+              <img src="./img/tw_icon_11738.png" alt="t" />
+            </div>
+            <div class="pindos shpakl">
+              <img src="./img/pin_icon_11740.png" alt="p" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <footer>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-1"></div>
+                  <div class="col-md-2">
+                    <h1>Category</h1>
+                    <p>Home</p>
+                    <p>About us</p>
+                    <p>Eshop</p>
+                    <p>Features</p>
+                    <p>New collections</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                  </div>
+                  <div class="col-md-2">
+                    <h1>Our Account</h1>
+                    <p>Your account</p>
+                    <p>Personal information</p>
+                    <p>ADdresses</p>
+                    <p>Search items</p>
+                  </div>
+                  <div class="col-md-2">
+                    <h1>Our Support</h1>
+                    <p>Site Map</p>
+                    <p>Search Items</p>
+                    <p>Advanced Search</p>
+                    <p>Mobile</p>
+                    <p>Contact us</p>
+                    <p>Mobile</p>
+                    <p>Addresses</p>
+                  </div>
+                  <div class="col-md-2">
+                    <h1>Newsletter</h1>
+                    <p>Join thousands of other people subscribe to our news</p>
+                    <div class="row">
+                      <input
+                        class="yellowass"
+                        type="text"
+                        placeholder="INSERT EMAIL"
+                      />
+                      <button>SUBMIT</button>
+                    </div>
+                    <img src="./img/vi1.png" alt="1" />
+                    <img src="./img/vi2.png" alt="2" />
+                    <img src="./img/vi3.png" alt="3" />
+                    <img src="./img/vi4.png" alt="4" />
+                    <img src="./img/vi5.png" alt="5" />
+                    <img src="./img/vi6.png" alt="6" />
+                  </div>
+                  <div class="col-md-2">
+                    <h1>About us</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                      pellentesque eu, pretium quis, sem.
+                    </p>
+                    <p>Phone: 1-999-342-9876</p>
+                    <p>e-mail: <span>info@surfhouse.com</span></p>
+                  </div>
+                  <div class="col-md-1"></div>
+                </div>
+              </div>
+            </footer>
+            <div class="container-fluid under">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <h4>
+                    ©2014 SURFHOUSE. All rights reserved - Designed by
+                    theuncreativelab.com
+                  </h4>
+                </div>
+                <div class="col-md-6 text-right">
+                  <div class="kaka">
+                    <img src="./img/popa1.png" alt="1" />
+                    <img src="./img/popa2.png" alt="2" />
+                    <img src="./img/popa3.png" alt="3" />
+                    <img src="./img/popa4.png" alt="4" />
+                    <img src="./img/popa5.png" alt="5" />
+                    <img src="./img/popa6.png" alt="6" />
+                    <img src="./img/popa7.png" alt="7" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="./scriptolog/paint.js"></script>   -->
+
+    <script src="scriptolog/paint.js"></script>
+    <script src="./scriptolog/threedaysofrain.js"></script>
+    <script src="./scriptolog/newproverka.js"></script>
+  </body>
+</html>

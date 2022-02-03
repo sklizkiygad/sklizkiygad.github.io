@@ -1,0 +1,75 @@
+@media (max-width: 1778px) 
+{
+    
+.tagsbiba li{
+    
+    padding: 2%;
+
+}
+
+
+}
+
+
+@media (max-width: 1338px) 
+{
+    .yellowblock h1{
+    font-size: 100%;
+
+
+
+    }
+    .yellowblock p{
+      
+    font-size: 100%;
+
+    
+    }
+.winston {
+    
+    padding: 2%;
+
+}
+
+.yellowass~button{
+    font-size: 40%;
+}
+
+
+}
+
+@media (max-width: 767px) 
+{
+    body{
+        overflow-x: hidden;
+    }
+    article{
+        position:static;
+   
+    }
+
+    .col-md-4{
+        text-align: center;
+    }
+    .yellowass~button{
+        font-size: 80%;
+    }
+   
+.card {
+    
+    margin: 2%;
+
+}
+.under{
+    width:111%;
+
+}
+footer{
+    margin:0;
+}
+.prostopzdc{
+    margin:0;
+}
+
+
+}
