@@ -1,0 +1,51 @@
+
+
+.navbar{
+    border-radius:0px 0px 15px 15px !important;
+    
+}
+.navbar-brand{
+    font-size: 3em !important;
+    color: aliceblue !important;
+  
+}
+
+.nav-item{
+    font-size: 2em !important;
+    color: aliceblue !important;
+
+}
+.nav-link{
+    color: rgba(240, 248, 255, 0.774) !important;
+
+}
+.navbar-text
+{
+    color: rgba(240, 248, 255, 0.774) !important;
+}
+
+.sec1{
+    background-image:url(../img/main2.jpg);
+    background-size: cover;
+    padding:0px 0px 345px 0px !important;
+}
+.fish{
+    background-color: rgba(102, 93, 187, 0.116);
+    border: rgb(241, 30, 30) solid;
+    padding:15px 0px 50px 0px;
+    color:rgb(241, 30, 30);
+    transition: 1s;
+   
+}
+
+
+.fish:hover {
+    transform: scale(1.2); 
+   }
+
+
+.blur {
+    background: rgba(53, 51, 51, 0.2); 
+    backdrop-filter: blur(2px); 
+    
+  }

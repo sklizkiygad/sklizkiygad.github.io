@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
+.navbar{
+    border-radius:0px 0px 15px 15px !important;
+    
+}
+.navbar-brand{
+    font-size: 3em !important;
+    color: aliceblue !important;
+  
+}
+
+.nav-item{
+    font-size: 2em !important;
+    color: aliceblue !important;
+
+}
+.nav-link{
+    color: rgba(240, 248, 255, 0.774) !important;
+
+}
+.navbar-text
+{
+    
+    color: rgba(240, 248, 255, 0.774) !important;
+}
+
+.sec1{
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+}
+
+
+.maint{
+    margin-top:200px;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    color:rgb(27, 160, 236);
+    font-weight: 900;
+
+
+}
+.worker{
+    background-color:rgba(194, 195, 245, 0.356);
+    padding:20px;
+  
+    border-radius: 10px;
+    
+}
+.guest{
+    background-color:rgba(194, 195, 245, 0.356);
+    padding:20px;
+    
+    border-radius: 10px;
+}
+.hz{
+    background-color:rgba(194, 195, 245, 0.356);
+    padding:20px;
+   
+    border-radius: 10px;
+}
+
+
+.bit{
+    color:rgb(235, 214, 214);
+    text-decoration: none;
+
+}
+
+.bit1:hover{
+    color:rgb(56, 22, 207);
+    text-decoration: none;
+
+}
+.bit2:hover{
+    color:rgb(44, 207, 22);
+    text-decoration: none;
+
+}
+.bit3:hover{
+    color:rgb(207, 22, 136);
+    text-decoration: none;
+
+}
+
+
+.sec2{
+    background-image: url(../img/inv.jpg);
+    
+    background-size: cover;
+    padding:0px 1px !important;
+}
+.blur {
+    background: rgba(53, 51, 51, 0.2); 
+    backdrop-filter: blur(2px); 
+  }
+
+  
+  
